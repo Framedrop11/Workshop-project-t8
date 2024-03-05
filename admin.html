@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Home page </title>
+        <title> Admin page </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="styles/first.css">
 
     </head>
-    <body>
+    <body>        
         <div>
             <img class="image" src="Backgrounds/bg.jpg">
         </div>
@@ -31,23 +31,22 @@
                 Video
             </button>
         </a>
-        <a href="second.html">
-            <button class="sign-in">
-                Sign in
-            </button>
-        </a>
+        <p> This is the admin site</p>
         <p class="ssl">
-            SMART MEDICAL REMINDER SYSTEM
+            <p class="client-one">
+                Client 1 information:
+            </p>
+            <iframe class="ssl" width="450" height="260" style="border: 1px solid #000000;" 
+            src="https://thingspeak.com/channels/2454338/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">
+            </iframe>
+            <p class="client-two">
+                Client 2 information:
+            </p>
+            <iframe class="graph" width="450" height="260" style="border: 1px solid #000000;" 
+            src="https://thingspeak.com/channels/2454338/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">
+            </iframe>
         </p>
-        <p class="wow">
-            Your meds, smarter than ever.
-
-        </p>
-        <form id="ButtonPress">
-            <button class="get-started" type="submit">
-                Get Started!
-            </button>
-        </form>
+        
         <script src="javascripts/first.js"></script>
         
     </body>
