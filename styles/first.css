@@ -131,6 +131,10 @@ body {
 }
 .cloud{
     position: absolute;
+    margin-top: 138px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
     
 }
 .sign-in{
@@ -157,6 +161,7 @@ body {
     font-size: 5vh;
 }
 .graph{
+    display: flex;
     position:absolute;
     margin-top: 240px;
     margin-left: 850px;
@@ -164,4 +169,55 @@ body {
     border-radius: 5px;
     border: none;
 }
+.table-container{
+    display: inline;
+    position:absolute;
+    width: auto;
+    margin-top: 160px;
+    margin-left: 770px;
+    font-size: 5vh;
+    border-radius: 5px;
+    border: none;
+}
+.table{
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+}
+.time-container{
+    display: flex;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 450px;
+    height: 25vh;
+    margin-top: 160px;
+    margin-left: 310px;
+    color: black;
 
+}
+#time{
+    display: flex;
+    position: absolute;
+    width: auto;
+    padding-top: 60px;
+    padding-left: 110px;
+    font-size: 50px;
+    
+}
+.next-medicine{
+    display: flex;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 430px;
+    height: 5vh;
+    margin-top: 342px;
+    margin-left: 310px;
+    padding-top: 13px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.meds{
+    margin: 0
+}
+  
